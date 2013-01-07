@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/local_boards"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         >
+     <ImageView
+         android:id="@+id/board_image"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:adjustViewBounds="true"
+         android:maxHeight="90dip"
+         android:scaleType="centerCrop"
+         />
+
+     <ListView 
+         android:id="@id/android:list"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:drawSelectorOnTop="false"/>
+     </LinearLayout>
+
+     <Button
+         android:id="@+id/follow_board_btn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@id/board_image"
+         android:layout_alignParentRight="true"
+         android:layout_margin="3dip"
+         android:background="@android:drawable/btn_default"
+         android:text="Follow"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+ </RelativeLayout>

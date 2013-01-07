@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/change_post_location"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_place_light"
+        android:title="Location"/>
+    <item
+        android:id="@+id/add_image"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_post_picture"
+        android:title="Add image"/>
+    <item
+        android:id="@+id/post_n0tice"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_post_send_light"
+        android:title="Post"/>
+    
+</menu>

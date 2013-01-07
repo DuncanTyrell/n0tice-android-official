@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Dialog" parent="Theme.Sherlock.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        </style>
+        
+    <style name="n0ticeTheme" parent="Theme.Sherlock.Light.DarkActionBar">
+	    <item name="actionBarStyle">@style/n0ticeBar</item>
+        <item name="android:actionBarStyle">@style/n0ticeBar</item>
+        <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_dark</item>
+        <item name="android:homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_dark</item>
+        </style>        
+        
+
+	<style name="n0ticeBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+	    <item name="background">@drawable/action_bar_bg</item>
+	    <item name="android:background">@drawable/action_bar_bg</item>	    
+	    <item name="backgroundSplit">@drawable/action_bar_bg</item>	    
+	    <item name="android:background">@drawable/action_bar_bg</item>	    
+	    <item name="titleTextStyle">@style/n0ticeBarTextStyle</item>
+        <item name="android:titleTextStyle">@style/n0ticeBarTextStyle</item>
+    	</style>
+	
+	<style name="n0ticeBarTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+	    <item name="android:textColor">@android:color/white</item>
+	   	<item name="android:textSize">14dip</item>
+	</style>
+	    
+</resources>

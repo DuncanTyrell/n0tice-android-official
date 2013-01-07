@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:background="@drawable/list_gradient_bg">        
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:orientation="vertical" 
+    >
+	
+	<ImageView
+	    android:id="@+id/report_image"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:scaleType="centerCrop"
+	    android:adjustViewBounds="true"
+	    />
+	
+    <TextView
+        android:id="@+id/report_title"
+	    android:autoLink="web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/dark_blue"
+        android:textSize="16dip" 
+        android:layout_margin="3dip"
+        />
+
+    <TextView
+        android:id="@+id/report_description"
+        android:autoLink="web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dip"
+        android:layout_margin="3dip"
+		/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:orientation="horizontal" 
+        >
+        
+    <Button
+        android:id="@+id/report_user"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="14dip" 
+        android:clickable="true"
+        android:onClick="onItemClicked"
+        android:drawableLeft="@drawable/ic_user"
+        />
+    
+    <Button
+        android:id="@+id/report_board"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="14dip" 
+        android:clickable="true"
+        android:onClick="onItemClicked"
+        android:drawableLeft="@drawable/ic_board"
+        />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/report_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="3dip"
+        android:textSize="12dip"
+        />
+
+	</LinearLayout>
+</ScrollView>

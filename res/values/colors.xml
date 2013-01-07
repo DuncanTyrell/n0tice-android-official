@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="n0tice_blue">#002090</color>
+    <color name="dark_grey">#1b1b1b</color>
+    <color name="darker_grey">#252525</color>
+    
+    <color name="light_red">#ee5f5b</color>
+    <color name="dark_red">#bd362f</color>
+
+    <color name="light_blue">#6db3f2</color>
+    <color name="dark_blue">#1e69de</color>
+    
+    
+
+</resources>

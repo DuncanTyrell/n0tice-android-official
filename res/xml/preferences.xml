@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="User details">
+
+        <EditTextPreference
+                android:key="username"
+                android:title="n0tice Username"
+                android:singleLine="true"
+                android:summary="Enter your n0tice username here" />
+        <EditTextPreference
+                android:key="password"
+                android:title="n0tice Password"
+                android:singleLine="true"
+		        android:inputType="textPassword"
+                android:password="true" 
+                android:summary="Enter your n0tice password here"
+                 />
+        
+    </PreferenceCategory>
+</PreferenceScreen>

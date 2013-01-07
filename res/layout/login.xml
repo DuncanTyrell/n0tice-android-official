@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dip" >
+
+    <TextView
+        android:id="@+id/user_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Existing n0tice users - enter your account details below" />
+
+    <EditText
+        android:id="@+id/user_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Username"
+        android:ems="10" >
+        <requestFocus />
+        
+    </EditText>
+    
+    <EditText
+        android:id="@+id/pass_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="10" />
+    
+    <Button
+		android:id="@+id/user_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login to n0tice"
+        />
+    
+    <TextView
+        android:id="@+id/user_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account yet? Click here to set one up..." />
+    
+    <Button
+		android:id="@+id/setup_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setup new account"
+        />
+</LinearLayout>

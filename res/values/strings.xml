@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">n0tice</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_item_list">Items</string>
+    <string name="n0ticed_at">n0ticed at: </string>
+    <string name="map_key">0KI4s1guTtiBFtIw24wRYPWZXj-PFCJ5U4-_3Mw</string>
+    <string name="debug_map_key">0-om2Pf_bmGFHsY4tLGjyJ9znx74CuNfi5Km7Xg</string>
+    <string name="image_picker_dialog">Launch camera or select from Gallery</string>
+    <string name="board_spinner_prompt">Select board to post to</string>
+    <string name="no_local_use_featured">Could not find any n0tices near current location, displaying featured n0tices instead</string>
+    
+</resources>

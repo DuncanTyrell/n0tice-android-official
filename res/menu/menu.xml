@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/pick_loc"
+        android:icon="@drawable/ic_place_light"
+        android:showAsAction="ifRoom|withText"
+        android:title="Location"/>
+    <item
+        android:id="@+id/new_post"
+        android:icon="@drawable/ic_newpost_light"
+        android:showAsAction="ifRoom|withText"
+        android:title="New post"/>
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh_light"
+        android:showAsAction="ifRoom|withText"
+        android:title="Refresh"/>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/about_n0tice"
+        android:title="About n0tice"/>
+
+</menu>
